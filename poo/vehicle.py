@@ -1,0 +1,40 @@
+class Vehicle:
+    """plate
+    color
+    brand"""
+    def __init__(self, plate, color, brand): #Constructor
+        self.plate = plate
+        self.color = color
+        self.brand = brand
+
+    def mover(self):
+        print("El vehículo se mueve")
+
+class Car(Vehicle):#Herencia
+    pass
+
+class Motorbike(Vehicle):#Herencia
+    def desplegar_gato(self):
+        print("Gato desplegado")
+
+class truck(Vehicle):
+    def cargar(self):
+        print("Cargar Coca_Cola")
+
+
+car1 = Car('666AAA','black','MAZDA')
+print(car1.plate)
+car1.mover()
+
+motorbike1 = Motorbike('HK77','yellow','YAMAHA')
+motorbike1.mover()
+motorbike1.desplegar_gato()
+
+#Por equipos de 2
+1.Diagrama de clases
+# Crear un gráfico con la clase Figura y el atributo largo.
+# Crear la clase Círculo y Cuadrado con los métodos calcular área y calcular perímetro.
+
+2.Programar en python la clases del gráfico anterior con sus respectivos atributos y métodos
+
+
