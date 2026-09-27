@@ -29,10 +29,10 @@ if __name__ == "__main__":
 #cubo
 
 ##Cargar el proyecto a git.
-
 #1. Crear la carpeta geometria
 #2. Crear el archivo figura.py
 #3. Crear el archivo esfera.py V= 4/3 * pi * radio*radio*radio
 #4. Crear el archivo cilindro.py V= pi * radio*radio*altura
 #5. Crear el archivo cubo.py V= largo*largo*largo
 #6  Crear el archivo main.py
+#https://github.com/dalzlad/ficha_3504434_django

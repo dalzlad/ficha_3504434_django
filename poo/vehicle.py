@@ -38,3 +38,17 @@ motorbike1.desplegar_gato()
 2.Programar en python la clases del gráfico anterior con sus respectivos atributos y métodos
 
 
+
+
+
+#Realizar un POO que permita calcular a través de un método:
+# el valor del descuento de un producto.
+
+#Si la cantidad de productos es inferior a 10 el descuento es del 5%.
+#Si la cantidad de productos es mayor a 10 e inferior a 50 el descuento es del 10%
+#Si es >= 49 el descuento es del 12.5 
+#No se pueden realizar cálculos con cantidades negativas o iguales a cero.
+#Los atributos de la clase son:
+#son id, nombre, cantidad, y precio.
+#Crear 2 objetos para verificar el funcionamiento de los descuentos.
+
